@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Handlee&family=Roboto+Serif:ital,opsz,wght@0,8..144,100;1,8..144,100&family=Satisfy&family=Vidaloka&display=swap');
+
+body{
+    min-width: 100vh;
+    background-color: #FFF0C9;
+}
+
+nav{
+    font-family: "Vidaloka";
+}
+
+
+header{
+    background-color: pink;
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+}
+
+.arriba{
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.logo{
+    width: 15%;
+}
+
+div{
+    display: flex;
+}
+
+main{
+    width: 75%;
+    box-sizing: border-box;
+    background-color: #FFF0C9;
+    
+}
+
+p{
+    font-family: "Roboto Serif";
+    font-size: 1rem;
+    margin-left: 1%;
+    margin-top: 5%;
+}
+
+.sale{
+    margin-top: 2%;
+    margin-left: 2%;
+}
+
+.salediv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    font-size: 4.5rem;
+    font-family: "Satisfy";
+    color: purple;
+}
+
+.principal{
+    width: 100%;
+}
+
+aside{
+    
+    width: 25%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column; 
+    background-color: #c5a3d5;  
+}
+
+.redes{
+    gap: 1rem;
+}
+
+.cafe{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+.viculo-cafe{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.costado{
+    font-size: 2rem;
+    font-family: "Vidaloka";
+    
+}
+
+footer{
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Vidaloka";
+ }
